@@ -147,7 +147,7 @@ public class ProfileEditorFragment extends BottomSheetDialogFragment {
                 .addNonNullNonEqualString("links/email", emailAdd, links.get("email"))
                 .addNonNullNonEqualString("links/facebook", facebookId, links.get("facebook"))
                 .addNonNullNonEqualString("links/g-plus", gplusId, links.get("g-plus"))
-                .addNonNullNonEqualString("links/linkdedin", linkedinId, links.get("linkedin"))
+                .addNonNullNonEqualString("links/linkedin", linkedinId, links.get("linkedin"))
                 .addNonNullNonEmptyList("profile_info/interests", interestString, profileInfo.interests)
                 .addNonEqualString("thumbnail", photoString, profile.thumbnail);
 
